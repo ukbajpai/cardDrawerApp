@@ -1,0 +1,13 @@
+<div>
+
+  <button type="button" (click) = "goToBack()">Back</button>
+</div>
+<div class= "containerFlex">
+  <div *ngFor="let node of nodes" (click)="updateNodes(node)">
+    <img [src] = "node.icon" width="300" >
+    <div class="containerFlex">
+      <div><label>{{node.name}}</label></div>
+      <div><label>{{node.description}}</label></div>
+    </div>
+  </div>
+</div>
