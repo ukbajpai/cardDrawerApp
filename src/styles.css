@@ -2,6 +2,12 @@
 body{
     background-color: #f1f1f1;
 }
+.siteContainer{
+    margin-top: 80px !important;
+    /* display: flex; */
+   /* position: absolute;
+    width: 100%; */
+}
 .containerFlex{
     display: flex;
     max-width: 100%;
@@ -12,4 +18,23 @@ body{
     min-width : calc(96% / 3);
     margin: 10px;
     text-align: center;
+}
+.navigation {
+    background: #fff;
+    padding: 20px 0;
+}
+.navbar-fadewhite{
+    background: #ddd !important;
+}
+.colorBlack{
+    color: #000 !important;
+}
+.colorBlack:hover, .colorBlack:active{
+    color: #000 !important;
+}
+.margin10{
+    margin: 10px;
+}
+.marginLeft20{
+margin-left: 20px;
 }

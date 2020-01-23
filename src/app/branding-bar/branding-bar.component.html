@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-md navbar-light fixed-top navbar-fadewhite">
+    <a class="navbar-brand ml-auto colorBlack" (click)="goBackToHome()">{{brandName}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+  
+        <li class="nav-item">
+          <button type="button" (click)="openSocialMedia('facebook')" class="btn btn-social-icon btn-outline-facebook">
+            <i class="fa fa-facebook"></i></button>
+        </li>
+        <li class="nav-item"> 
+          <button type="button" (click)="openSocialMedia('youtube')" class="btn btn-social-icon btn-outline-youtube">
+            <i class="fa fa-youtube"></i>
+        </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" (click)="openSocialMedia('twitter')"  class="btn btn-social-icon btn-outline-twitter"><i class="fa fa-twitter"></i></button>
+        </li>
+        <li class="nav-item">
+            <button type="button"  (click)="openSocialMedia('instagram')" class="btn btn-social-icon btn-outline-instagram"> 
+                <i class="fa fa-instagram"></i> 
+              </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" (click)="openSocialMedia('mail')"  class="btn btn-social-icon btn-outline-envelope"> 
+            <i class="fa fa-envelope"></i> 
+          </button>
+        </li>
+  
+      </ul>
+    </div>
+  </nav>

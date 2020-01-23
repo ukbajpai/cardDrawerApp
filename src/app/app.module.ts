@@ -6,12 +6,14 @@ import {ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BrandingBarComponent } from './branding-bar/branding-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    BrandingBarComponent
   ],
   imports: [
     BrowserModule,

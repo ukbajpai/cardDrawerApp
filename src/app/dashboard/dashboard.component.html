@@ -1,8 +1,11 @@
-<div>
+<app-branding-bar (logoClick) = "goBackToHome($event)" ></app-branding-bar>
 
-  <button type="button" (click) = "goToBack()">Back</button>
-</div>
-<div class= "containerFlex">
+<div class= " siteContainer">
+   <button *ngIf="checkParentNode()" type="button" class="btn btn-light marginLeft20" (click)="goToBack()">
+        <i class="fa fa-chevron-left"></i>
+        <span class="margin10">Go back to {{parentName}}</span>
+   </button>
+      <div class="containerFlex">
   <div *ngFor="let node of nodes" (click)="updateNodes(node)">
     <img [src] = "node.icon" width="300" >
     <div class="containerFlex">
@@ -10,4 +13,5 @@
       <div><label>{{node.description}}</label></div>
     </div>
   </div>
+</div>
 </div>

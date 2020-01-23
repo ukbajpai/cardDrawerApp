@@ -1,0 +1,12 @@
+{
+    "name" : "Encapsulate Ideas123",
+    "About" : "We deliver best gift products",
+    "isLoginRequired" : false,
+    "socialMediaLinks" : {
+        "facebook" : "https://www.facebook.com/encapsulateideas/",
+        "instagram" : "https://encapsulateideas.wordpress.com/",
+        "twitter" : "https://twitter.com/encapsulateidea",
+        "mail" : "mailto:encapsulateideas@gmail.com",
+        "youtube" : "https://www.youtube.com/channel/UChAlpEbfW1y9auiBC08ZwGQ"
+    }
+}
